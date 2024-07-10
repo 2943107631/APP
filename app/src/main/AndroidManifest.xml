@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MyApplication">
+        <activity android:name="com.user.activity.My"></activity>
+        <activity android:name="com.user.activity.AddMoCha" />
+        <activity android:name="com.user.activity.ModelDetail" />
+        <activity android:name="com.user.activity.DianZan" />
+        <activity android:name="com.user.activity.AddExChange" />
+        <activity android:name="com.user.activity.JiPaiDetail" />
+        <activity android:name="com.admin.JiPaiDetail" />
+        <activity android:name="com.admin.Add2" />
+        <activity android:name="com.admin.HomeDetail" />
+        <activity android:name="com.admin.Add" />
+        <activity android:name="com.admin.MainActivity3" />
+        <activity android:name="com.user.activity.HomeModelDetail" />
+        <activity android:name="com.user.activity.Resume" />
+        <activity android:name="com.user.activity.Password" />
+        <activity android:name="com.user.activity.Personal" />
+        <activity android:name="com.user.MainActivity2" />
+        <activity android:name="com.user.Register" />
+        <activity android:name="com.user.Forget" />
+        <activity android:name="com.user.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
